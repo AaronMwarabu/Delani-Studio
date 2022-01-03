@@ -1,0 +1,28 @@
+*{
+    font-family: 'Lato', sans-serif;
+    font-weight: 550;
+}
+.container{
+    text-align: center;
+}
+.landing-page{
+    background-image: url("../assets/backgrounds/h_img.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+.intro h1{
+    line-height: 80px;
+}
+.intro img{
+    margin-top: 15%;
+}
+.intro h1{
+    font-size: 49px;
+    margin-top: 6%;
+}
+.intro h5{
+    line-height: 2px;
+}
+.mouse-click{
+    margin-top: 13%;
+}
