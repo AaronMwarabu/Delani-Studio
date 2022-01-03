@@ -12,4 +12,28 @@ $(document).ready(function () {
         $(".management-hidden").toggle();
         $(".management-visible").toggle();
     });
+
+    // Portfolio Hover Effect
+    $("#portfolio img").hover(function () {
+        $(this).stop().animate({
+            opacity: .5 
+        });
+        }, function () {
+            $(this).stop().animate({
+                opacity: 2
+            });
+    });
+
+    // Contact Form
+    $("#contact-us").submit(function(event){
+        let name = $("#name").val();
+        let email = $("#email").val();
+        let message = $("#message").val();
+
+        event.preventDefault();
+
+        alert("Thank you for reaching us! We have received your message.");
+
+        $("form").trigger("reset");
+    })
 })
